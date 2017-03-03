@@ -1,0 +1,36 @@
+/*Removes default on the body-tag*/
+body{
+    margin:0;
+    padding: 0;
+}
+section{
+  height: 1000px;
+  width: 500px;
+  background-color: red;
+}
+header,footer{
+  height: 10%;
+  width: inherit;
+  border: 50px green;
+  background-color: black;
+}
+article{
+  height: 800px;
+  width:auto;
+  background-color: maroon;
+}
+
+.thing{
+  width:auto;
+  height:inherit;
+  background-color: blue;
+  border: 5px black;
+  float: left;
+}
+.left{
+  width: 33%
+}
+.right{
+  width: 33%;
+  background-color:green;
+}
