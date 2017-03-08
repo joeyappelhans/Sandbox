@@ -1,0 +1,38 @@
+/*Removes default on the body-tag*/
+body{
+    margin:0;
+    padding: 0;
+}
+section{
+  height: 1000px;
+  width: 500px;
+  background-color: purple;
+}
+header,footer{
+  height: 10%;
+  width: 460px;
+  border: 20px dotted white;
+  background-color: black;
+}
+article{
+  height: 800px;
+  width:auto;
+}
+
+.thing{
+  width:auto;
+  height:inherit;
+  background-color: blue;
+  float: left;
+}
+.left{
+  width: 33%
+}
+.right{
+  width: 33%;
+  background-color:green;
+}
+picture{
+  height: auto;
+  width:500px;
+}
